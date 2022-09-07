@@ -5,7 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://kit.fontawesome.com/811e7b5b45.js" crossorigin="anonymous"></script>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="slider.css">
+
   <title>SNS Project</title>
 </head>
 <body>
@@ -116,7 +121,7 @@
           </div>
 </section>
 <br><br><br>
-<!-- -------------------------------------Shape right------------------------------------------- -->
+<!-- -------------------------------------Shaperight--------------------------------- -->
 <section>
           <div class="sm:">
                <h1 class="text-2xl mt-8 text-center">  Lorem ipsum dolor sit amet.</h1>
@@ -127,9 +132,95 @@
                </div>
           </div>
 </section>
+
+<!-- --------------------------------Product Carousel---------------------------- -->
+<section class="bg-pink-200 py-12">
+
+          
+  <div class="container">
+    <div class="row blog">
+        <div class="col-md-12">
+            <div id="blogCarousel" class="carousel slide" data-ride="carousel">
+
+                <ol class="carousel-indicators">
+                    <li data-target="#blogCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#blogCarousel" data-slide-to="1"></li>
+                </ol>
+
+                <!-- Carousel items -->
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="image/caro1.jpg" alt="Image" style="max-width:100%;">
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="image/caro2.jpg" alt="Image" style="max-width:100%;">
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="image/caro3.jpg" alt="Image" style="max-width:100%;">
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="image/caro4.jpg" alt="Image" style="max-width:100%;">
+                                </a>
+                            </div>
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="image/caro1.jpg" alt="Image" style="max-width:100%;">
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="image/caro2.jpg" alt="Image" style="max-width:100%;">
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="image/caro3.jpg" alt="Image" style="max-width:100%;">
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="#">
+                                    <img src="image/caro4.jpg" alt="Image" style="max-width:100%;">
+                                </a>
+                            </div>
+                        </div>
+                        <!--.row-->
+                    </div>
+                    <!--.item-->
+
+                </div>
+                <!--.carousel-inner-->
+            </div>
+            <!--.Carousel-->
+
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
 <!-- -------------------------------------Profile Cart----------------------------------- -->
 
 <section>
+  <h1 class="text-3xl mt-8 text-center mb-8">  Lorem ipsum dolor sit amet.</h1>
         <div class="flex ml-56 mr-56">
          <div class="border border-pink-500">
            <div class="flex ">
@@ -141,7 +232,7 @@
                   <p>Lorem, ipsum dolor.</p>
                  </div>
            </div>
-           <div>
+           <div class="mt-4">
             <p class="text-justify px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, autem quas? Suscipit numquam a aut mollitia? Minus cum inventore dignissimos.Laudantium, autem quas? Suscipit numquam a aut mollitia? Minus cum inventore dignissimos.</p>
         </div>
       </div>
@@ -156,7 +247,7 @@
                  <p>Lorem, ipsum dolor.</p>
                 </div>
           </div>
-          <div>
+          <div class="mt-4">
            <p class="text-justify px-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, autem quas? Suscipit numquam a aut mollitia? Minus cum inventore dignissimos.Laudantium, autem quas? Suscipit numquam a aut mollitia? Minus cum inventore dignissimos.</p>
        </div>
      </div>
@@ -172,7 +263,7 @@
                <p>Lorem, ipsum dolor.</p>
               </div>
         </div>
-        <div>
+        <div class="mt-4">
          <p class="text-justify px-4 pb-16">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, autem quas? Suscipit numquam a aut mollitia? Minus cum inventore dignissimos.Laudantium, autem quas? Suscipit numquam a aut mollitia? Minus cum inventore dignissimos.</p>
      </div>
    </div>
@@ -413,5 +504,9 @@
           <h1>Copyright@2022- All reserved</h1>
          </div>
 </section>
+
+<script src="slider.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>
