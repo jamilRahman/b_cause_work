@@ -1,3 +1,11 @@
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    .blog .carousel-indicators {
+      
+    }
+  }
+
+  
 .blog .carousel-indicators {
 	left: 0;
 	top: auto;
@@ -17,15 +25,4 @@
 background: #707070;
 }
 
-/* /-------------------- */
 
-.bgimage{
-
-    background-image: url("image/backcircle1.jpg");
-}
-
-.image2{
-
-    background-image: url("image/backcircle1 (copy).jpg");
-
-}

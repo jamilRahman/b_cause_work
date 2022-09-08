@@ -1,0 +1,29 @@
+/* Header */
+
+.bannerimage{
+  background-image: url("image/1.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+/* /-------------------- */
+
+
+
+/* .bgimage{
+
+  background-image: url("image/backcircle1.jpg");
+}
+
+/* .image2{
+
+  background-image: url("image/backcircle2.jpg");
+
+  
+} */ 
+
+
+/* ----------------------------------- For Pricing Table-------------------------------------- */
+
